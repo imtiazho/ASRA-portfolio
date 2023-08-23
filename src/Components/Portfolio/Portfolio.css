@@ -1,0 +1,9 @@
+.cus-hover:hover .hov-unitone {
+  background-color: #1f1f1f;
+  color: #fff;
+  transition: all 0.3s;
+}
+.cus-hover:hover .hov-unitone-i {
+  color: #28e98c;
+  text-decoration: underline;
+}
