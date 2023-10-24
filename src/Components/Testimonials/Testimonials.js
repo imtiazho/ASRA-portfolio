@@ -35,6 +35,19 @@ const Testimonials = () => {
                     data-aos-duration="1000"
                 >
                     <SwiperSlide>
+                        <div className='text-white border-2 border-[#565656] duration-300 hover:border-[#28e98c] rounded-2xl md:p-14 p-8  flex flex-col lg:gap-8 gap-5'>
+                            <div className='flex items-center gap-3'>
+                                <img className='w-[60px] h-[60px] object-cover rounded-full' src={t3} alt="" />
+                                <div>
+                                    <p className='text-white mb-[2px]'>Mehdi Hasan Price</p>
+                                    <p className='text-secondary md:text-[11px] text-[9px]'>Co - Founder of <span className='text-primary'>STUDIO D' VOID</span></p>
+                                </div>
+                            </div>
+                            <p className='md:text-[19px] text-[13px] font-[300]'>“Fast response, incredible service and good behavior. Work is up to the mark. Can communicate properly for better comprehension. Very much recommended.”</p>
+                            <a className='text-white md:text-[11px] text-[9px]'>PROJECT</a>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
                         <div data-aos="fade-up"
                             data-aos-duration="1000" className='text-white border-2 border-[#565656] duration-300 hover:border-[#28e98c] rounded-2xl md:p-14 p-8 flex flex-col lg:gap-8 gap-5'>
                             <div className='flex items-center gap-3'>
@@ -59,19 +72,6 @@ const Testimonials = () => {
                             </div>
                             <p className='md:text-[19px] text-[13px] font-[300]'>“Remarkable service and upright behavior. Work is exceptionally good. Can communicate properly for betterment. Can work accordingly just like you wanted. worth it recommended.”</p>
                             <a target='_blank' rel="noreferrer" href='https://cute-gelato-0e49d8.netlify.app/' className='text-white md:text-[11px] text-[9px]'>PROJECT</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className='text-white border-2 border-[#565656] duration-300 hover:border-[#28e98c] rounded-2xl md:p-14 p-8  flex flex-col lg:gap-8 gap-5'>
-                            <div className='flex items-center gap-3'>
-                                <img className='w-[60px] h-[60px] object-cover rounded-full' src={t3} alt="" />
-                                <div>
-                                    <p className='text-white mb-[2px]'>Mehdi Hasan Price</p>
-                                    <p className='text-secondary md:text-[11px] text-[9px]'>Co - Founder of <span className='text-primary'>STUDIO D' VOID</span></p>
-                                </div>
-                            </div>
-                            <p className='md:text-[19px] text-[13px] font-[300]'>“Fast response, incredible service and good behavior. Work is up to the mark. Can communicate properly for better comprehension. Very much recommended.”</p>
-                            <a className='text-white md:text-[11px] text-[9px]'>PROJECT</a>
                         </div>
                     </SwiperSlide>
                 </Swiper>

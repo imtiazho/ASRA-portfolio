@@ -27,7 +27,7 @@ const Portfolio = () => {
                             <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>Nodejs</p>
                         </div>
                     </div>
-                    <a href='https://64d0090ea3461a031f47e7eb--rad-mousse-1da45a.netlify.app/' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>Atibhooj || Literature Social Media</a>
+                    <a href='https://6527ba61c634f21c680587cc--rad-mousse-1da45a.netlify.app/' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>Atibhooj || Literature Social Media</a>
                 </div>
 
                 <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-6 gap-[5rem]'>
@@ -39,7 +39,7 @@ const Portfolio = () => {
                                 <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>MERN</p>
                             </div>
                         </div>
-                        <a href='https://jocular-tarsier-ff0a2f.netlify.app/' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>G Medical || Doctors Appoinment</a>
+                        <a href='https://6527ccbd72c747280438cea0--jocular-tarsier-ff0a2f.netlify.app/' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>G Medical || Doctors Appoinment</a>
                     </div>
                     <div data-aos="fade-up"
                         data-aos-duration="1000" className='cus-hover'>
@@ -49,7 +49,7 @@ const Portfolio = () => {
                                 <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>MERN</p>
                             </div>
                         </div>
-                        <a href='https://64da20df763dcc3946250ddc--jocular-tarsier-ff0a2f.netlify.app/' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>Alinar || E-Commerce Site</a>
+                        <a href='https://6527c66833c8ed242e443715--cute-gelato-0e49d8.netlify.app/' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>Alinar || E-Commerce Site</a>
                     </div>
                 </div>
 
@@ -63,7 +63,7 @@ const Portfolio = () => {
                             <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>Nodejs</p>
                         </div>
                     </div>
-                    <a href='https://ubiquitous-raindrop-d7cf17.netlify.app/' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>Rent Time || Space/Room/Flat Renting Website</a>
+                    <a href='https://6527c153b53f202187139fe8--ubiquitous-raindrop-d7cf17.netlify.app/' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>Rent Time || Space/Room/Flat Renting Website</a>
                 </div>
             </div>
         </div>

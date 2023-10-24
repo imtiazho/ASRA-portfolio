@@ -18,12 +18,12 @@ const Profile = () => {
             <img className="w-[230px] h-[190px] rounded-[22px] mt-2 mb-3 mx-auto object-cover" src={mainPic} alt="" />
             <div className="text-center text-white">
                 <h2 className='text-[21px] font-[500] tracking-wider pop-font'>Imtiaz Hossain</h2>
-                <p className='text-[14px] mt-1 font-[200] tracking-wider'>Dhaka, BD</p>
+                <p className='text-[13px] mt-1 font-[200] tracking-wider'>Dhaka, Bangladesh</p>
             </div>
-            <p className='text-[13px] text-center text-secondary'>© {today} Imtiaz.h All Rights Reserved</p>
+            <p className='text-[13px] text-center text-secondary'>© {today} Imtiazho All Rights Reserved</p>
             <div className="flex justify-center gap-2">
                 <a hr className='w-[40px] h-[40px] rounded-full border flex justify-center items-center border-[#565656] text-[#565656] hover:text-primary hover:border-primary duration-300' href='https://www.facebook.com/imtiaz.h.z/' target='_blank' rel="noreferrer"><i class="fa-brands fa-facebook"></i></a>
-                <a className='w-[40px] h-[40px] rounded-full border flex justify-center items-center border-[#565656] text-[#565656] hover:text-primary hover:border-primary duration-300' href=''><i class="fa-brands fa-linkedin"></i></a>
+                <a href='https://www.linkedin.com/in/imtiazhoo/' className='w-[40px] h-[40px] rounded-full border flex justify-center items-center border-[#565656] text-[#565656] hover:text-primary hover:border-primary duration-300'><i class="fa-brands fa-linkedin" target='_blank' rel="noreferrer"></i></a>
                 <a className='w-[40px] h-[40px] rounded-full border flex justify-center items-center border-[#565656] text-[#565656] hover:text-primary hover:border-primary duration-300' href='https://www.instagram.com/imtiazhoo/' target='_blank' rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
                 <a className='w-[40px] h-[40px] rounded-full border flex justify-center items-center border-[#565656] text-[#565656] hover:text-primary hover:border-primary duration-300' href='https://github.com/imtiazho' target='_blank' rel="noreferrer"><i class="fa-brands fa-github"></i></a>
             </div>

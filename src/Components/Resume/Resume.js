@@ -36,7 +36,7 @@ const Resume = () => {
                             <div className='flex flex-col md:gap-6 gap-3'>
                                 <div>
                                     <p className='md:text-[23px] text-[20px] text-white font-[300] md:mb-[3px] mb-[2px]'>MERN Stack Web Development</p>
-                                    <p className='text-[12px] font-[300]'>Programming Hero</p>
+                                    <p className='text-[12px] font-[300]'>Youtube</p>
                                 </div>
                                 <div>
                                     <p className='md:text-[23px] text-[20px] text-white font-[300] md:mb-[3px] mb-[2px]'>Graphics Design</p>
