@@ -3,6 +3,8 @@ import project1 from '../../media/portfolio1.jpg';
 import project2 from '../../media/p2.jpg';
 import project3 from '../../media/p3.jpg';
 import project4 from '../../media/p4.jpg';
+import project5 from '../../media/p5.jpg';
+import project6 from '../../media/p6.jpg';
 import './Portfolio.css';
 
 const Portfolio = () => {
@@ -22,12 +24,10 @@ const Portfolio = () => {
                     <div className='relative'>
                         <img className='rounded-xl object-cover' src={project1} alt="" />
                         <div className='flex items-center md:gap-6 gap-3 absolute bottom-[15px] left-[15px]'>
-                            <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>Reactjs</p>
-                            <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>Firebase</p>
-                            <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>Nodejs</p>
+                            <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>Photoshop</p>
                         </div>
                     </div>
-                    <a href='https://6527ba61c634f21c680587cc--rad-mousse-1da45a.netlify.app/' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>Atibhooj || Literature Social Media</a>
+                    <a href='' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>Pizza || Poster Design</a>
                 </div>
 
                 <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-6 gap-[5rem]'>
@@ -36,20 +36,21 @@ const Portfolio = () => {
                         <div className='relative'>
                             <img className='rounded-xl object-cover' src={project3} alt="" />
                             <div className='flex items-center md:gap-6 gap-3 absolute bottom-[15px] left-[15px]'>
-                                <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>MERN</p>
+                                <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>Photoshop</p>
                             </div>
                         </div>
-                        <a href='https://6527ccbd72c747280438cea0--jocular-tarsier-ff0a2f.netlify.app/' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>G Medical || Doctors Appoinment</a>
+                        <a href='' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>Starbucks || Poster Design</a>
                     </div>
+                    
                     <div data-aos="fade-up"
                         data-aos-duration="1000" className='cus-hover'>
                         <div className='relative'>
-                            <img className='rounded-xl object-cover' src={project4} alt="" />
+                            <img className='rounded-xl object-cover' src={project6} alt="" />
                             <div className='flex items-center md:gap-6 gap-3 absolute bottom-[15px] left-[15px]'>
-                                <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>MERN</p>
+                                <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>Photoshop</p>
                             </div>
                         </div>
-                        <a href='https://6527c66833c8ed242e443715--cute-gelato-0e49d8.netlify.app/' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>Alinar || E-Commerce Site</a>
+                        <a href='' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>Nike || Poster Design</a>
                     </div>
                 </div>
 
@@ -58,12 +59,34 @@ const Portfolio = () => {
                     <div className='relative'>
                         <img className='rounded-xl object-cover' src={project2} alt="" />
                         <div className='flex items-center md:gap-6 gap-3 absolute bottom-[15px] left-[15px]'>
-                            <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>Reactjs</p>
-                            <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>Mongodb</p>
-                            <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>Nodejs</p>
+                            <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>Photoshop</p>
                         </div>
                     </div>
-                    <a href='https://6527c153b53f202187139fe8--ubiquitous-raindrop-d7cf17.netlify.app/' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>Rent Time || Space/Room/Flat Renting Website</a>
+                    <a href='' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>Delivery || Poster Design</a>
+                </div>
+
+                <div className='grid lg:grid-cols-2 grid-cols-1 lg:gap-6 gap-[5rem]'>
+                    <div data-aos="fade-up"
+                        data-aos-duration="1000" className='cus-hover'>
+                        <div className='relative'>
+                            <img className='rounded-xl object-cover' src={project5} alt="" />
+                            <div className='flex items-center md:gap-6 gap-3 absolute bottom-[15px] left-[15px]'>
+                                <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>Illustrator</p>
+                            </div>
+                        </div>
+                        <a href='' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>Commercial || Card Design - 1</a>
+                    </div>
+
+                    <div data-aos="fade-up"
+                        data-aos-duration="1000" className='cus-hover'>
+                        <div className='relative'>
+                            <img className='rounded-xl object-cover' src={project4} alt="" />
+                            <div className='flex items-center md:gap-6 gap-3 absolute bottom-[15px] left-[15px]'>
+                                <p className='hov-unitone bg-white md:px-5 px-3 md:py-[5px] py-[3px] text-black md:text-[14px] text-[12px] font-[300] rounded-full'>Illustrator</p>
+                            </div>
+                        </div>
+                        <a href='' target='_blank' rel="noreferrer" className='relative top-[30px] md:text-[24px] text-[20px] font-[300] text-white hov-unitone-i duration-300'>Commercial || Flyer Design</a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -7,7 +7,6 @@ import Specializations from '../Specializations/Specializations';
 import MySkills from '../MySkills/MySkills';
 import Portfolio from '../Portfolio/Portfolio';
 import Testimonials from '../Testimonials/Testimonials';
-import Brands from '../Brands/Brands';
 import Pricing from '../Pricing/Pricing';
 import ContactUs from '../ContactUs/ContactUs';
 import SideNav from '../SideNav/SideNav';
@@ -27,8 +26,7 @@ const Home = () => {
                 <MySkills />
                 <Portfolio />
                 <Testimonials />
-                <Brands />
-                <Pricing />
+                {/* <Pricing /> */}
                 <ContactUs />
             </div>
         </div>

@@ -11,7 +11,6 @@ const SideNav = () => {
                 <a className='hover:text-primary' href="/#skills"><i className="fa-solid fa-code"></i></a>
                 <a className='hover:text-primary' href="/#portfolio"><i className="fa-solid fa-diagram-project"></i></a>
                 <a className='hover:text-primary' href="/#testimonials"><i className="fa-solid fa-message"></i></a>
-                <a className='hover:text-primary' href="/#pricing"><i className="fa-solid fa-dollar-sign"></i></a>
                 <a className='hover:text-primary' href="/#contact"><i className="fa-regular fa-envelope"></i></a>
             </div>
         </div>

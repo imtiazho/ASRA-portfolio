@@ -38,33 +38,6 @@ const Pricing = () => {
 
                         <a href='#contact' className='btn btn-primary rounded-full bg-primary hover:bg-transparent border-transparent hover:border-primary hover:text-primary duration-300 font-[500]'><p className='text-[14px]'>Pick this package</p></a>
                     </div>
-
-                    <div data-aos="fade-up"
-                        data-aos-duration="1000" className='border border-[#565656] hover:border-primary duration-300 p-8 rounded-3xl  text-white flex flex-col gap-10'>
-                        <div className='flex items-start justify-between'>
-                            <p className='text-[22px] font-[300]'>BACKEND</p>
-                            <div className="text-end text-secondary">
-                                <p className='text-[12px] font-[400]  mb-1'>Have frontend ready to backend?</p>
-                                <p className='text-[12px] font-[400] '>or backend budget</p>
-                            </div>
-                        </div>
-
-                        <div className='flex items-baseline gap-4 border-b border-[#565656] pb-8'>
-                            <p className='text-[55px] font-[300] text-primary '>$20</p>
-                            <span className='text-[25px] font-[300] text-secondary'> / day</span>
-                        </div>
-
-                        <div className='flex flex-col gap-3 mb-12'>
-                            <p className='text-[13px] font-[300] pop-font'>Need your frontend file</p>
-                            <p className='text-[13px] font-[300] pop-font'>File with github, drive or mail</p>
-                            <p className='text-[13px] font-[300] pop-font'>Implement with nodejs, expressjs and database will be mongodb</p>
-                            <p className='text-[13px] font-[300] pop-font'>Remote/Online</p>
-                            <p className='text-[13px] font-[300] pop-font'>Work in 12/7 days, with weekend.</p>
-                            <p className='text-[13px] font-[300] pop-font'>Support 24/7 days (If any bugs occur)</p>
-                        </div>
-
-                        <a href='#contact' className='btn btn-primary rounded-full bg-primary hover:bg-transparent border-transparent hover:border-primary hover:text-primary duration-300 font-[500]'><p className='text-[14px]'>Pick this package</p></a>
-                    </div>
                 </div>
             </div>
 

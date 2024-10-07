@@ -23,8 +23,8 @@ const Resume = () => {
                                     <p className='md:text-[12px] text-[11px] font-[300]'>Dhaka City College</p>
                                 </div>
                                 <div>
-                                    <p className='md:text-[23px] text-[20px] text-white font-[300] mb-[3px]'>Full Stack Web Development</p>
-                                    <p className='md:text-[12px] text-[11px] font-[300]'>Independently & Project Base</p>
+                                    <p className='md:text-[23px] text-[20px] text-white font-[300] mb-[3px]'>Senior Graphic Designer</p>
+                                    <p className='md:text-[12px] text-[11px] font-[300]'>Genziz - Cloting Brand</p>
                                 </div>
                             </div>
                         </div>
@@ -32,15 +32,15 @@ const Resume = () => {
                     <div className='ml-8 pb-4'>
                         <div className='w-[12px] h-[12px] bg-primary rounded-full absolute -left-[6px]'></div>
                         <div className='text-secondary'>
-                            <p className='md:text-[15px] text-[13px] md:mb-5 mb-2'>2020 - 2021</p>
+                            <p className='md:text-[15px] text-[13px] md:mb-5 mb-2'>2021 - 2023</p>
                             <div className='flex flex-col md:gap-6 gap-3'>
                                 <div>
-                                    <p className='md:text-[23px] text-[20px] text-white font-[300] md:mb-[3px] mb-[2px]'>MERN Stack Web Development</p>
-                                    <p className='text-[12px] font-[300]'>Youtube</p>
+                                    <p className='md:text-[23px] text-[20px] text-white font-[300] md:mb-[3px] mb-[2px]'>Management and Quality Control </p>
+                                    <p className='text-[12px] font-[300]'>Western cover Bd & Unique cover Bd</p>
                                 </div>
                                 <div>
-                                    <p className='md:text-[23px] text-[20px] text-white font-[300] md:mb-[3px] mb-[2px]'>Graphics Design</p>
-                                    <p className='text-[12px] font-[300]'>Youtube</p>
+                                    <p className='md:text-[23px] text-[20px] text-white font-[300] md:mb-[3px] mb-[2px]'>Cultural Club President</p>
+                                    <p className='text-[12px] font-[300]'>Government Science College (2020-2022)</p>
                                 </div>
                             </div>
                         </div>

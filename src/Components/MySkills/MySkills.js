@@ -1,7 +1,7 @@
 import React from 'react';
-import { BiLogoFirebase, BiLogoMongodb, BiLogoNodejs, BiLogoReact, BiLogoTailwindCss } from 'react-icons/bi';
-import { SiDaisyui, SiExpress } from 'react-icons/si';
-import { TbBrandBootstrap } from 'react-icons/tb';
+import { DiPhotoshop } from 'react-icons/di';
+import { SiAdobeillustrator, SiAndroidauto } from 'react-icons/si';
+import { RiPresentationFill } from 'react-icons/ri';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
@@ -21,67 +21,35 @@ const MySkills = () => {
             <div className='mt-8 grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-8 justify-center xl:w-[80%] w-[90%]'>
                 <div data-aos="fade-up"
                     data-aos-duration="1000" className='flex flex-col gap-4 items-center'>
-                    <div className='border-2 border-[#565656] hover:border-primary duration-300 flex flex-col gap-[.25rem] md:py-12 py-8 md:px-8 px-6 items-center rounded-full'>
-                        <BiLogoReact className='text-[92px] text-[#00D8FF]' />
+                    <div className='border-2 border-[#565656] hover:border-primary duration-300 flex flex-col gap-[1rem] md:py-12 py-8 md:px-8 px-6 items-center rounded-full'>
+                        <DiPhotoshop className='text-[92px] text-[#31A8FF]' />
                         <p className='text-[27px] font-[300 text-primary'>90%</p>
                     </div>
-                    <p className='text-white'>React js</p>
+                    <p className='text-white'>Photoshop</p>
                 </div>
                 <div data-aos="fade-up"
                     data-aos-duration="1000" className='flex flex-col gap-4 items-center'>
-                    <div className='border-2 border-[#565656] hover:border-primary duration-300 flex flex-col gap-[.25rem] md:py-12 py-8 md:px-8 px-6 items-center rounded-full'>
-                        <BiLogoNodejs className='text-[92px] text-[#509941]' />
+                    <div className='border-2 border-[#565656] hover:border-primary duration-300 flex flex-col gap-[1rem] md:py-12 py-8 md:px-8 px-6 items-center rounded-full'>
+                        <SiAdobeillustrator className='text-[92px] text-[#FF9B00]' />
                         <p className='text-[27px] font-[300 text-primary'>80%</p>
                     </div>
-                    <p className='text-white'>Node js</p>
+                    <p className='text-white'>Adobe Illustrator</p>
                 </div>
                 <div data-aos="fade-up"
                     data-aos-duration="1000" className='flex flex-col gap-4 items-center'>
-                    <div className='border-2 border-[#565656] hover:border-primary duration-300 flex flex-col gap-[.25rem] md:py-12 py-8 md:px-8 px-6 items-center rounded-full'>
-                        <SiExpress className='text-[92px] text-[#fff]' />
-                        <p className='text-[27px] font-[300 text-primary'>85%</p>
+                    <div className='border-2 border-[#565656] hover:border-primary duration-300 flex flex-col gap-[1rem] md:py-12 py-8 md:px-8 px-6 items-center rounded-full'>
+                        <SiAndroidauto className='text-[92px] text-[#F33726]' />
+                        <p className='text-[27px] font-[300 text-primary'>60%</p>
                     </div>
-                    <p className='text-white'>Express js</p>
+                    <p className='text-white'>Autocad</p>
                 </div>
                 <div data-aos="fade-up"
                     data-aos-duration="1000" className='flex flex-col gap-4 items-center'>
-                    <div className='border-2 border-[#565656] hover:border-primary duration-300 flex flex-col gap-[.25rem] md:py-12 py-8 md:px-8 px-6 items-center rounded-full'>
-                        <BiLogoMongodb className='text-[92px] text-[#509941]' />
+                    <div className='border-2 border-[#565656] hover:border-primary duration-300 flex flex-col gap-[1rem] md:py-12 py-8 md:px-8 px-6 items-center rounded-full'>
+                        <RiPresentationFill className='text-[92px] text-[#FFFF00]' />
                         <p className='text-[27px] font-[300 text-primary'>75%</p>
                     </div>
-                    <p className='text-white'>Mongodb</p>
-                </div>
-                <div data-aos="fade-up"
-                    data-aos-duration="1000" className='flex flex-col gap-4 items-center'>
-                    <div className='border-2 border-[#565656] hover:border-primary duration-300 flex flex-col gap-[.25rem] md:py-12 py-8 md:px-8 px-6 items-center rounded-full'>
-                        <BiLogoFirebase className='text-[92px] text-[#FFCC2F]' />
-                        <p className='text-[27px] font-[300 text-primary'>70%</p>
-                    </div>
-                    <p className='text-white'>Firebase</p>
-                </div>
-                <div data-aos="fade-up"
-                    data-aos-duration="1000" className='flex flex-col gap-4 items-center'>
-                    <div className='border-2 border-[#565656] hover:border-primary duration-300 flex flex-col gap-[.25rem] md:py-12 py-8 md:px-8 px-6 items-center rounded-full'>
-                        <BiLogoTailwindCss className='text-[92px] text-[#00D8FF]' />
-                        <p className='text-[27px] font-[300 text-primary'>97%</p>
-                    </div>
-                    <p className='text-white'>Tailwind Css</p>
-                </div>
-                <div data-aos="fade-up"
-                    data-aos-duration="1000" className='flex flex-col gap-4 items-center'>
-                    <div className='border-2 border-[#565656] hover:border-primary duration-300 flex flex-col gap-[.25rem] md:py-12 py-8 md:px-8 px-6 items-center rounded-full'>
-                        <TbBrandBootstrap className='text-[92px] text-[#7111F5]' />
-                        <p className='text-[27px] font-[300 text-primary'>80%</p>
-                    </div>
-                    <p className='text-white'>Bootstrap 5</p>
-                </div>
-                <div data-aos="fade-up"
-                    data-aos-duration="1000" className='flex flex-col gap-4 items-center'>
-                    <div className='border-2 border-[#565656] hover:border-primary duration-300 flex flex-col gap-[.25rem] md:py-12 py-8 md:px-8 px-6 items-center rounded-full'>
-                        <SiDaisyui className='text-[92px] text-[#1AD1A5]' />
-                        <p className='text-[27px] font-[300 text-primary'>90%</p>
-                    </div>
-                    <p className='text-white'>Daisy UI</p>
+                    <p className='text-white'>Presentation</p>
                 </div>
             </div>
         </div>

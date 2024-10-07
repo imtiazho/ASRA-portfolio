@@ -16,11 +16,11 @@ const Specializations = () => {
                     data-aos-duration="1000" className='border md:p-8 p-5 border-[#565656] hover:border-primary duration-300 rounded-[15px] flex flex-col gap-5'>
                     <div className='flex justify-between'>
                         <div>
-                            <p className='md:text-[24px] text-[20px]  text-white mb-[5px] text-[300]'>Frontend Development</p>
-                            <p className='md:text-[14px] text-[12px] text-secondary text-[300]'>I am able to create website according to your idea using Reactjs, Tailwind Css, daisy UI or your recommended css frame.</p>
+                            <p className='md:text-[24px] text-[20px]  text-white mb-[5px] text-[300]'>Product Design</p>
+                            <p className='md:text-[14px] text-[12px] text-secondary text-[300]'>I am able to design Product that will be innovative designs and exceptional products.</p>
                         </div>
                         <div className='md:text-[30px] text-[25px] text-primary'>
-                            <i class="fa-solid fa-bezier-curve"></i>
+                            <i class="fa-solid fa-shirt"></i>
                         </div>
                     </div>
 
@@ -30,16 +30,59 @@ const Specializations = () => {
                     data-aos-duration="1000" className='border md:p-8 p-5 border-[#565656] hover:border-primary duration-300 rounded-[15px] flex flex-col gap-5'>
                     <div className='flex justify-between'>
                         <div>
-                            <p className='md:text-[24px] text-[20px]  text-white mb-[5px] text-[300]'>Backend Development</p>
-                            <p className='md:text-[14px] text-[12px] text-secondary text-[300]'>I am able to make or modify your website to give some functionality by using Nodejs and Express js. So, that user can use your site for dynamically</p>
+                            <p className='md:text-[24px] text-[20px]  text-white mb-[5px] text-[300]'>Flyer Design</p>
+                            <p className='md:text-[14px] text-[12px] text-secondary text-[300]'>I am able to design Flyers that will be eye-catching flyers and have maximum impact.</p>
                         </div>
                         <div className='md:text-[30px] text-[25px] text-primary'>
-                            <i class="fa-solid fa-code"></i>
+                            <i class="fa-solid fa-file"></i>
                         </div>
                     </div>
 
-                    <p className='md:text-[12px] text-[10px] hover:underline-offset-1'>10+ PROJECTS</p>
+                    <p className='md:text-[12px] text-[10px] hover:underline-offset-1'>70+ PROJECTS</p>
                 </div>
+                <div data-aos="fade-up"
+                    data-aos-duration="1000" className='border md:p-8 p-5 border-[#565656] hover:border-primary duration-300 rounded-[15px] flex flex-col gap-5'>
+                    <div className='flex justify-between'>
+                        <div>
+                            <p className='md:text-[24px] text-[20px]  text-white mb-[5px] text-[300]'>Poster Design</p>
+                            <p className='md:text-[14px] text-[12px] text-secondary text-[300]'>I am able to design Posters that will be powerful posters and memorable messages</p>
+                        </div>
+                        <div className='md:text-[30px] text-[25px] text-primary'>
+                            <i class="fa-solid fa-newspaper"></i>
+                        </div>
+                    </div>
+
+                    <p className='md:text-[12px] text-[10px] hover:underline-offset-1'>20+ PROJECTS</p>
+                </div>
+                <div data-aos="fade-up"
+                    data-aos-duration="1000" className='border md:p-8 p-5 border-[#565656] hover:border-primary duration-300 rounded-[15px] flex flex-col gap-5'>
+                    <div className='flex justify-between'>
+                        <div>
+                            <p className='md:text-[24px] text-[20px]  text-white mb-[5px] text-[300]'>Card Design</p>
+                            <p className='md:text-[14px] text-[12px] text-secondary text-[300]'>I am able to design Cards that are elegant cards that will leave a lasting impression.</p>
+                        </div>
+                        <div className='md:text-[30px] text-[25px] text-primary'>
+                            <i class="fa-solid fa-id-card"></i>
+                        </div>
+                    </div>
+
+                    <p className='md:text-[12px] text-[10px] hover:underline-offset-1'>30+ PROJECTS</p>
+                </div>
+                <div data-aos="fade-up"
+                    data-aos-duration="1000" className='border md:p-8 p-5 border-[#565656] hover:border-primary duration-300 rounded-[15px] flex flex-col gap-5'>
+                    <div className='flex justify-between'>
+                        <div>
+                            <p className='md:text-[24px] text-[20px]  text-white mb-[5px] text-[300]'>Logo Design</p>
+                            <p className='md:text-[14px] text-[12px] text-secondary text-[300]'>I am able to design Logo designs that will be iconic logos and brand identities.</p>
+                        </div>
+                        <div className='md:text-[30px] text-[25px] text-primary'>
+                            <i class="fa-solid fa-icons"></i>
+                        </div>
+                    </div>
+
+                    <p className='md:text-[12px] text-[10px] hover:underline-offset-1'>50+ PROJECTS</p>
+                </div>
+                
             </div>
         </div>
     );

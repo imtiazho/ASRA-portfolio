@@ -3,7 +3,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import { toast } from 'react-hot-toast';
 
 const ContactUs = () => {
-    const [state, handleSubmit] = useForm("xrgwbeyg");
+    const [state, handleSubmit] = useForm("xeoqjrll");
     useEffect(() => {
         if (state.succeeded) {
             toast.success('Thanks for messaging us!', {
@@ -46,13 +46,13 @@ const ContactUs = () => {
                     </div>
                     <div>
                         <label htmlFor='subject' className='text-[11px] text-white'>SUBJECT <span className='text-[#FF0000]'>*</span></label>
-                        <input name="SubjectName" id='subject' placeholder='Frontend or Beckend?' type="text" className='w-full focus:outline-0 h-full bg-transparent text-black text-white text-[14px] font-[300]' />
+                        <input name="SubjectName" id='subject' placeholder='Subject?' type="text" className='w-full focus:outline-0 h-full bg-transparent text-black text-white text-[14px] font-[300]' />
                     </div>
                 </div>
 
                 <div className='mt-12 border-b border-[#565656] mb-4'>
-                    <label htmlFor='message' className='text-[11px] text-white'>SUBJECT <span className='text-[#FF0000]'>*</span></label>
-                    <textarea name="message" id='message' placeholder='Frontend or Beckend?' type="text" className='w-full focus:outline-0 h-full bg-transparent text-black text-white text-[14px] font-[300] mt-[12px] w-full h-[200px] resize-none	' ></textarea>
+                    <label htmlFor='message' className='text-[11px] text-white'>IN DETAILS <span className='text-[#FF0000]'>*</span></label>
+                    <textarea name="message" id='message' placeholder='In details?' type="text" className='w-full focus:outline-0 h-full bg-transparent text-black text-white text-[14px] font-[300] mt-[12px] w-full h-[200px] resize-none	' ></textarea>
                 </div>
 
                 <input type='submit' value='SEND MESSAGE' className='btn btn-primary rounded-full bg-primary hover:bg-transparent border-transparent hover:border-primary hover:text-primary duration-300 font-[500]'></input>

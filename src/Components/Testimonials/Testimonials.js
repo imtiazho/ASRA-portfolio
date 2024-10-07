@@ -35,43 +35,31 @@ const Testimonials = () => {
                     data-aos-duration="1000"
                 >
                     <SwiperSlide>
-                        <div className='text-white border-2 border-[#565656] duration-300 hover:border-[#28e98c] rounded-2xl md:p-14 p-8  flex flex-col lg:gap-8 gap-5'>
+                        <div data-aos="fade-up"
+                            data-aos-duration="1000" className='text-white border-2 border-[#565656] duration-300 hover:border-[#28e98c] rounded-2xl md:p-14 p-8 flex flex-col lg:gap-8 gap-5'>
                             <div className='flex items-center gap-3'>
-                                <img className='w-[60px] h-[60px] object-cover rounded-full' src={t3} alt="" />
+                                <img className='w-[60px] h-[60px] object-cover rounded-full' src={t1} alt="" />
                                 <div>
-                                    <p className='text-white mb-[2px]'>Mehdi Hasan Price</p>
-                                    <p className='text-secondary md:text-[11px] text-[9px]'>Co - Founder of <span className='text-primary'>STUDIO D' VOID</span></p>
+                                    <p className='text-white mb-[2px]'>Rahman Shabab</p>
+                                    <p className='text-secondary md:text-[11px] text-[9px]'>CEO of<span className='text-primary'> Western Cover BD</span></p>
                                 </div>
                             </div>
-                            <p className='md:text-[19px] text-[13px] font-[300]'>“Fast response, incredible service and good behavior. Work is up to the mark. Can communicate properly for better comprehension. Very much recommended.”</p>
-                            <a className='text-white md:text-[11px] text-[9px]'>PROJECT</a>
+                            <p className='md:text-[19px] text-[13px] font-[300]'>I'm absolutely blown away by the graphic design work you've done for my project. The visuals are not only visually stunning but also perfectly capture the essence of my brand. Your attention to detail and ability to bring my ideas to life is truly impressive. Thank you for your exceptional work!</p>
+                            <a target='_blank' rel="noreferrer" href='' className='text-white md:text-[11px] text-[9px]'>PROJECT</a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div data-aos="fade-up"
                             data-aos-duration="1000" className='text-white border-2 border-[#565656] duration-300 hover:border-[#28e98c] rounded-2xl md:p-14 p-8 flex flex-col lg:gap-8 gap-5'>
                             <div className='flex items-center gap-3'>
-                                <img className='w-[60px] h-[60px] object-cover rounded-full' src={t1} alt="" />
-                                <div>
-                                    <p className='text-white mb-[2px]'>Noman Sadi</p>
-                                    <p className='text-secondary md:text-[11px] text-[9px]'>Founder of <span className='text-primary'>Atibhooj</span></p>
-                                </div>
-                            </div>
-                            <p className='md:text-[19px] text-[13px] font-[300]'>“Imtiaz is an exceptional web developer. His innovative designs and efficient coding greatly enhanced the functionality and aesthetics of our site.”</p>
-                            <a target='_blank' rel="noreferrer" href='https://rad-mousse-1da45a.netlify.app/' className='text-white md:text-[11px] text-[9px]'>PROJECT</a>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className='text-white border-2 border-[#565656] duration-300 hover:border-[#28e98c] rounded-2xl md:p-14 p-8 flex flex-col lg:gap-8 gap-5'>
-                            <div className='flex items-center gap-3'>
                                 <img className='w-[60px] h-[60px] object-cover rounded-full' src={t2} alt="" />
                                 <div>
-                                    <p className='text-white mb-[2px]'>Ashrafi Oli</p>
-                                    <p className='text-secondary md:text-[11px] text-[9px]'>Founder of <span className='text-primary'>Alinar</span></p>
+                                    <p className='text-white mb-[2px]'>Prottoy Haroon</p>
+                                    <p className='text-secondary md:text-[11px] text-[9px]'>Manager of<span className='text-primary'> Aperture And Canvas</span></p>
                                 </div>
                             </div>
-                            <p className='md:text-[19px] text-[13px] font-[300]'>“Remarkable service and upright behavior. Work is exceptionally good. Can communicate properly for betterment. Can work accordingly just like you wanted. worth it recommended.”</p>
-                            <a target='_blank' rel="noreferrer" href='https://cute-gelato-0e49d8.netlify.app/' className='text-white md:text-[11px] text-[9px]'>PROJECT</a>
+                            <p className='md:text-[19px] text-[13px] font-[300]'>I just wanted to take a moment to express my sincere gratitude for your incredible graphic design skills. Your designs have exceeded my expectations in every way. The colors, typography, and overall aesthetic are exactly what I was looking for. I'm so happy with the final product and can't wait to share it with others. Thank you again for your amazing work!</p>
+                            <a target='_blank' rel="noreferrer" href='' className='text-white md:text-[11px] text-[9px]'>PROJECT</a>
                         </div>
                     </SwiperSlide>
                 </Swiper>
