@@ -52,6 +52,21 @@ const Testimonials = () => {
                         <div data-aos="fade-up"
                             data-aos-duration="1000" className='text-white border-2 border-[#565656] duration-300 hover:border-[#28e98c] rounded-2xl md:p-14 p-8 flex flex-col lg:gap-8 gap-5'>
                             <div className='flex items-center gap-3'>
+                                <img className='w-[60px] h-[60px] object-cover rounded-full' src={t3} alt="" />
+                                <div>
+                                    <p className='text-white mb-[2px]'>Redwan Ahmed</p>
+                                    <p className='text-secondary md:text-[11px] text-[9px]'>CEO of <span className='text-primary'> bright celebration
+                                    </span></p>
+                                </div>
+                            </div>
+                            <p className='md:text-[19px] text-[13px] font-[300]'>Your graphic design work is a breath of fresh air. The creativity and innovation you've brought to my project are truly inspiring. I've received countless compliments on the visuals, and I can't thank you enough for your talent and dedication. Your work has made a huge difference in the success of my project.</p>
+                            <a target='_blank' rel="noreferrer" href='' className='text-white md:text-[11px] text-[9px]'>PROJECT</a>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div data-aos="fade-up"
+                            data-aos-duration="1000" className='text-white border-2 border-[#565656] duration-300 hover:border-[#28e98c] rounded-2xl md:p-14 p-8 flex flex-col lg:gap-8 gap-5'>
+                            <div className='flex items-center gap-3'>
                                 <img className='w-[60px] h-[60px] object-cover rounded-full' src={t2} alt="" />
                                 <div>
                                     <p className='text-white mb-[2px]'>Prottoy Haroon</p>
