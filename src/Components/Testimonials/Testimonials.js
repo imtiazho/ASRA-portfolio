@@ -55,7 +55,7 @@ const Testimonials = () => {
                                 <img className='w-[60px] h-[60px] object-cover rounded-full' src={t3} alt="" />
                                 <div>
                                     <p className='text-white mb-[2px]'>Redwan Ahmed</p>
-                                    <p className='text-secondary md:text-[11px] text-[9px]'>CEO of <span className='text-primary'> bright celebration
+                                    <p className='text-secondary md:text-[11px] text-[9px]'>CEO of <span className='text-primary'> Bright Celebration
                                     </span></p>
                                 </div>
                             </div>
